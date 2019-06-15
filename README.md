@@ -26,7 +26,7 @@
 - JS(React, Vue)
 - Amazon Web Service
 
-### その他
+### その他、日々使っているもの
 
 - Docker
 - Vagrant
