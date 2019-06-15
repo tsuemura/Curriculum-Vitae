@@ -8,9 +8,9 @@
 
 ## 基本情報
 
-名前: 末村 拓也(Takuya Suemura)
-国籍: 日本
-生年月日: 1987/03/16
+- 名前: 末村 拓也(Takuya Suemura)
+- 国籍: 日本
+- 生年月日: 1987/03/16
 
 ## スキル
 
@@ -102,3 +102,9 @@
 
 ### 執筆歴
 * [我が名は神龍……どんなテストもひとつだけ自動化してやろう - Qiita](https://qiita.com/tsuemura/items/56ba9942565963858d8f) いいね数1400overの代表作。これがきっかけでいろいろ登壇したりするようになりました
+
+## SNSとか
+
+- [Twitter](https://twitter.com/tsueeemura)
+- [Qiita](https://qiita.com/tsuemura)
+- [Wantedly](https://www.wantedly.com/users/39079305)
