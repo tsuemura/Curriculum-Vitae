@@ -2,113 +2,72 @@
 
 ## TL;DR
 
-- QAエンジニアです
-- CodeceptJSのコミッタです
-- [神龍に自動化をさせる記事](https://qiita.com/tsuemura/items/56ba9942565963858d8f)がバズりました
+自動テスト、品質保証、DevOps、スクラムなどに強みを持つソフトウェアエンジニアです。プロセス改善や、プロセスと事業の結びつきに強い関心があり、次のような課題解決に貢献できます:
 
-## 基本情報
+- 開発とQAの間に垣根があり、「わたし作る人、あなたテストする人」のようになってしまっている。
+- アジャイル開発をしているが、障害が頻繁に起きたり、障害が怖くてリリースがしづらくなっている。
+- 自動テストなどの取り組みを進めたいが、投資対効果が分かりにくく、会社として投資をしづらい。
 
-- 名前: 末村 拓也(Takuya Suemura)
-- 国籍: 日本
-- 生年月日: 1987/03/16
+## 経歴
 
-## スキル
+### 略歴
 
-### 自信を持って得意と言えるもの
+オフィス用品の流通業でのロジスティクス管理を5年経験した後、医薬品のSCM（サプライチェーンマネジメント）システムを提供するIT企業でWebアプリケーション開発者として勤務。その後、物流スタートアップOPENLOGIで一人目のQAエンジニアとして参画。ソフトウェア開発者としての経験とロジスティクス管理のドメイン知識を活かして、同社の品質保証プロセスと自動テスト基盤の構築を行った。
 
-- Selenium
-- WebDriverIO
-- CodeceptJS
+2019年よりAIを用いた自動テストのプラットフォームを提供するAutifyに参画し、テクニカルサポートチームの立ち上げやQAマネージャーなど、多角的に開発チームを支援した。現在は同社の品質エバンジェリストとして、品質への投資の重要性を世の中に広めることをミッションとして活躍している。
 
-### 自信はないが業務でそこそこ使っているもの
+書籍「[テスト自動化実践ガイド](https://www.shoeisha.co.jp/book/detail/9784798172354)」の著者であり、自動テストや品質に関する登壇を多数行っている。オンライン開催のソフトウェアテストシンポジウム「[JaSST Online](https://jasst.jp/online/)」と、東京で年一回開催されるグローバルカンファレンス「[Tokyo Test Fest](https://www.tokyotestfest.jp)」の実行委員を務めるなど、コミュニティ活動にも精力的に貢献している。
 
-- PHP(Laravel)
-- JS(React, Vue)
-- Amazon Web Service
+### 年表
 
-### その他、日々使っているもの
+- 2024/8- Autify 品質エバンジェリスト
+- 2021/8- Autify シニアテクニカルサポートエンジニア
+- 2019/8- Autify テスト自動化エンジニア
+- 2017/10- OPENLOGI QAエンジニア/ロジスティクスエンジニア（兼務）
+- 2015/10- 株式会社サグブレイン 事業マネージャー/ソフトウェアエンジニア（兼務）
+- 2010/4- 株式会社エスシー 業務
 
-- Docker
-- Vagrant
-- Git
-- SQL
-- CircleCI / GitLab CI
-- ネットワーク周りの基礎知識
+### テクニカルスキル
 
-## 言語
+- QA/テスト自動化 ★★★★★
+  - Web ★★★★★
+  - モバイル ★★★★
+- アジャイル/スクラム ★★★★
+- テクニカルサポート ★★★★
+- Webアプリケーション開発 ★★★★
+- マーケティング ★★
+  - エバンジェリスト活動とその周辺領域 ★★★
 
-- 日本語
-  - ネイティブ
-- 英語
-  - Issue書いたりSlackでコミュニケーションできる程度
-  - Google翻訳って本当に便利ですよね
+### 言語
 
-## 職務経歴
+- 日本語: ネイティブ
+- 英語: CEFR B2 high
 
-### 2018/08 - 現在: Autify
+CEFR（ヨーロッパ共通言語参照枠）についての解説はこちらが参考になります: https://www.britishcouncil.jp/programmes/english-education/updates/4skills/about/cefr
 
-肩書: Test Automation Specialist
+> B2: 	自分の専門分野の技術的な議論も含めて、抽象的な話題でも具体的な話題でも、複雑な文章の主要な内容を理解できる。母語話者とはお互いに緊張しないで普通にやり取りができるくらい流暢かつ自然である。幅広い話題について、明確で詳細な文章を作ることができる。
 
-### 2017/12 - 2018/07: 株式会社オープンロジ
+## 執筆・発表経歴
 
-職務: QAエンジニア
+### 執筆
 
-#### E2Eテスト導入〜運用
+商業出版のみを記載。他、[Zenn](https://zenn.dev/tsuemura)、[Qiita](https://qiita.com/tsuemura)、[note](https://note.com/tsuemura)にも記事多数。
 
-- PHPUnitでAPIレベルまではテストできていたが、ブラウザテストの自動化が全くできていなかったので実装
-- フレームワークは当初TestCafeをつかっていたが、途中からCodeceptJSに移行
-- Docker-SeleniumをつかってGitLab CI上で環境構築
+- [テスト自動化実践ガイド](https://www.shoeisha.co.jp/book/detail/9784798172354)（翔泳社）
+- Software Design 2020年6月-8月号「はじめよう、高速E2Eテスト」
 
-#### 手動テスト
+### 講演
 
-- feature/bugfixいずれについてもリリース前に手動テストをしています
-- 仕様がきちんと決まっていない部分を明確にしつつ仕様バグを探し出したり、開発者の考慮漏れを探したりするのが目的
-- 手動テスト実行後、必要に応じて自動テストを書いています
+主なもののみ。全編は [SpeakerDeck](https://speakerdeck.com/tsuemura?page=1) に掲載されています。
 
-#### フィールドエンジニア
+- 8th長崎QDG 招待講演「事業継続を支える自動テストの考え方」([SpeakerDeck](https://speakerdeck.com/tsuemura/supporting-business-continuity-with-automated-testing))
+- JaSST'23 Kyushu 招待講演「テスト自動化から、開発と品質を支える継続的テストへ」([Youtube](https://www.youtube.com/watch?v=N3tFQrsFXmA&feature=youtu.be))
 
-- 入社後1年ぐらい、過去の物流経験を活かして倉庫の現場サポートに行ったりしていました
-- Wifiが調子悪いとか、デバイスが調子悪いとかの調査をしたり、現場で必要そうな機能をIssueにしたり
-- QAのリーダーになってからはほとんど行っていません
+## インタビュー
 
-### 2015/10 - 2017/10: 株式会社サグブレイン
+- [「自分の仕事や役割にとらわれず、『面白さ』を軸に挑戦を続けよう」──『テスト自動化実践ガイド』執筆者、末村拓也氏に聞く自分の"広げ方"](https://www.qbook.jp/column/2079.html)
 
-職務: 事業マネージャー兼なんちゃってフルスタックエンジニア
+## SNS
 
-#### 事業マネージメント
-
-- SCM(Supply Chain Management)事業のマネージャーをしていました
-- マネージャーと言いつつ要はなんでも屋で、運用から客先でのヒアリングまで全部やってました
-- 部下はいませんでした、一人マネージャーで、上司は社長
-
-#### エンジニア
-
-- 上記マネージャー業のかたわらエンジニア的な動きもしていました
-- 社内唯一のエンジニアだったので、インフラからフロントエンドまで全部やってました
-- 一緒に仕事してた外注先のエンジニアに教えてもらいつつPHP5.3で歯を食いしばる日々
-
-### 2015/09以前: 物流倉庫で2社ほど
-
-- フォークリフト乗ったり現場リーダー的なことをしたり
-- 業務設計とかマニュアル作りとかで現場改善をすすめたりしました
-- ハンディターミナルのソフト作ったりしてました（GUIでらくちん開発、的なやつ）
-- Excelマクロおじさんとしてバックオフィスの改善に取り組んだりもしました
-- 5年ぐらい3K職場に耐えかねてきたが妻の妊娠を期に足を洗う
-
-## 課外活動
-
-### 運営イベント
-* [喋り足りNight](https://shaberitarinight.connpass.com/): テスト関連のLT会
-
-### 過去の登壇資料
-* [退屈なブラウザテストはCodeceptJSにやらせよう](https://slideship.com/users/@tsuemura/presentations/2019/03/Fzk5ahAPgaPT1xHDh6dkZd/): 2019/04 SeleniumConfTokyo事前勉強会での登壇資料
-* [PageObjectPattern使うのやめた話](https://slideship.com/users/@tsuemura/presentations/2019/04/DJsNSnuZVmoDr2EFMxmWeT/): 2019/05 SeleniumConfTokyoでのLT資料
-
-### 執筆歴
-* [我が名は神龍……どんなテストもひとつだけ自動化してやろう - Qiita](https://qiita.com/tsuemura/items/56ba9942565963858d8f) いいね数1400overの代表作。これがきっかけでいろいろ登壇したりするようになりました
-
-## SNSとか
-
-- [Twitter](https://twitter.com/tsueeemura)
-- [Qiita](https://qiita.com/tsuemura)
-- [Wantedly](https://www.wantedly.com/users/39079305)
+- [X](https://twitter.com/tsueeemura)
+- [LinkedIn](https://www.linkedin.com/in/takuya-suemura-456343189/)
