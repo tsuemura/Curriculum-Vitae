@@ -61,15 +61,17 @@ CEFR（ヨーロッパ共通言語参照枠）についての解説はこちら�
 
 商業出版のみを記載。他、[Zenn](https://zenn.dev/tsuemura)、[Qiita](https://qiita.com/tsuemura)、[note](https://note.com/tsuemura)にも記事多数。
 
+- [フルスタックテスティング（共訳）](https://www.shoeisha.co.jp/book/detail/9784798190471)（翔泳社）
 - [テスト自動化実践ガイド](https://www.shoeisha.co.jp/book/detail/9784798172354)（翔泳社）
 - Software Design 2020年6月-8月号「はじめよう、高速E2Eテスト」
 
 ### 講演
 
-主なもののみ。全編は [SpeakerDeck](https://speakerdeck.com/tsuemura?page=1) に掲載されています。
+主なもののみ。その他は [SpeakerDeck](https://speakerdeck.com/tsuemura) に掲載されています。
 
 - 8th長崎QDG 招待講演「事業継続を支える自動テストの考え方」([SpeakerDeck](https://speakerdeck.com/tsuemura/supporting-business-continuity-with-automated-testing))
 - JaSST'23 Kyushu 招待講演「テスト自動化から、開発と品質を支える継続的テストへ」([Youtube](https://www.youtube.com/watch?v=N3tFQrsFXmA&feature=youtu.be))
+- Online Test Conf 2020 「How can we improve the testability of applications?」([SpeakerDeck](https://speakerdeck.com/tsuemura/how-can-we-improve-the-testability-of-applications))
 
 ## インタビュー
 
