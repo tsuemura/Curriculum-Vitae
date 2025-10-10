@@ -15,47 +15,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Install dependencies for Chromium
+      - name: Install Pandoc and LaTeX
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            libnss3 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxrandr2 \
-            libgbm1 \
-            libasound2t64
-
-      - name: Install md-to-pdf
-        run: npm install -g md-to-pdf
+            pandoc \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-latex-extra \
+            texlive-lang-japanese \
+            texlive-lang-cjk
 
       - name: Convert README.md to PDF
-        run: md-to-pdf README.md
-        env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
-          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
+        run: |
+          pandoc README.md \
+            -o cv-ja.pdf \
+            --pdf-engine=xelatex \
+            -V documentclass=article \
+            -V geometry:margin=2cm \
+            -V CJKmainfont="Noto Sans CJK JP" \
+            -V lang=ja
 
       - name: Convert README-en.md to PDF
-        run: md-to-pdf README-en.md
-        env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
-          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
-
-      - name: Rename PDF files
         run: |
-          mv README.pdf cv-ja.pdf
-          mv README-en.pdf cv-en.pdf
+          pandoc README-en.md \
+            -o cv-en.pdf \
+            --pdf-engine=xelatex \
+            -V documentclass=article \
+            -V geometry:margin=2cm \
+            -V lang=en
 
       - name: Upload PDF artifacts
         uses: actions/upload-artifact@v4
