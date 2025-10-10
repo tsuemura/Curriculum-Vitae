@@ -15,4 +15,7 @@ module.exports = {
     headerIds: false,
     smartypants: true,
   },
+  launch_options: {
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  },
 };
