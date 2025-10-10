@@ -42,9 +42,15 @@ jobs:
 
       - name: Convert README.md to PDF
         run: md-to-pdf README.md
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
+          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
 
       - name: Convert README-en.md to PDF
         run: md-to-pdf README-en.md
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
+          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
 
       - name: Rename PDF files
         run: |
